@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    background: no-repeat center center fixed;
+    background: #a8c0ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: aliceblue;
+}
+
+#app {
+    width: 500;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+#time {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#time #value{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"]{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid aliceblue;
+    border-radius: 3px;
+    width: 300px;
+}
+
+button, input[type="submit"]{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid aliceblue;
+    background-color: #4DC126;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0px 34px 50px -12px rgba(0,0,0,0.67);
+}
+
+#tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.task {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 20px;
+}
+
+#taskName {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.task .completed{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.done {
+    display: inline-block;
+    padding: 5px;
+    color: aliceblue;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+#logo #image {
+    width:200px;
+}
+
+#check {
+    width: 20px;
+}
